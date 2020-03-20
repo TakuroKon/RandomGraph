@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Resets
+------------------------------------------------*/
+section,nav,article,aside,hgroup,header,footer,figure,figcaption,summary { display: block; margin:0; padding:0; }
+
+caption,th { margin: auto; text-align: left; }
+img { border: 0; vertical-align: bottom; }
+address,caption,th { font-weight: normal; font-style: normal; }
+
+/* clearfix
+------------------------------------------------*/
+.clearfix { *zoom:1; }
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content:"";
+	line-height: 0;
+}
+.clearfix:after { clear: both; }
+
+/* #canvas_test
+------------------------------------------------*/
+#canvas_test{                /* id名をセレクタとしてスタイルを指定 */
+	width: 683px;              /* 横幅を指定 */
+	height: 384px;             /* 縦幅を指定 */
+	border :1px solid #008000; /* 枠線を指定 */
+}
